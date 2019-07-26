@@ -16,10 +16,10 @@
 #    along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ###############################################################################
 
+from . import stemlab_client
+from . import hardware_modules as rp
 from .sshshell import SshShell
 from .pyrpl_utils import get_unique_name_list_from_class_list
-from . import hardware_modules as rp
-from . import stemlab_client
 
 import logging
 import os
