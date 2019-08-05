@@ -20,6 +20,7 @@ from . import stemlab_client
 from . import hardware_modules as rp
 from .sshshell import SshShell
 from .pyrpl_utils import get_unique_name_list_from_class_list
+from .errors import ExpectedPyrplError
 
 import logging
 import os
